@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        #red{
+            background-color: crimson;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #green{
+            background-color: rgb(56, 178, 56);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #blue{
+            background-color: rgb(8, 99, 184);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #random{
+            background-color: plum;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button{
+            margin: 2px;
+            border-style:double;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pick a Color</h2>
+    <button id="red" onclick="setColor('crimson')">Red</button>
+    <button id="green" onclick="setColor('lightgreen')">Green</button>
+    <button id="blue" onclick="setColor('lightblue')">Blue</button>
+    <button id="random" onclick="randomColor()">Random</button>
+    <script src="index.js"></script>
+</body>
+</html>
